@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="45%" stop-color="#0a152e"/>
+      <stop offset="80%" stop-color="#0d2850"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="72%" cy="48%" r="55%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.45"/>
+      <stop offset="45%" stop-color="#0284c7" stop-opacity="0.2"/>
+      <stop offset="80%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blueBeam" cx="78%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#2563eb" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg2)"/>
+  <circle cx="1420" cy="500" r="750" fill="url(#glow2)"/>
+  <circle cx="1500" cy="440" r="500" fill="url(#blueBeam)"/>
+
+  <!-- High-Tech Engineering Blueprint Grid -->
+  <g opacity="0.07" stroke="#60a5fa" stroke-width="1.2">
+    <path d="M0 140 H1920 M0 280 H1920 M0 420 H1920 M0 560 H1920 M0 700 H1920 M0 840 H1920 M0 980 H1920" />
+    <path d="M200 0 V1080 M400 0 V1080 M600 0 V1080 M800 0 V1080 M1000 0 V1080 M1200 0 V1080 M1400 0 V1080 M1600 0 V1080 M1800 0 V1080" />
+  </g>
+
+  <!-- Technical Schematic Circles -->
+  <g transform="translate(1440, 520)" opacity="0.2">
+    <circle cx="0" cy="0" r="300" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="16 16"/>
+    <circle cx="0" cy="0" r="420" fill="none" stroke="#93c5fd" stroke-width="1"/>
+    <circle cx="0" cy="0" r="540" fill="none" stroke="#3b82f6" stroke-width="2" stroke-dasharray="8 20"/>
+  </g>
+
+  <rect width="1150" height="1080" fill="url(#bg2)" opacity="0.94"/>
+  <rect width="1920" height="1080" fill="black" opacity="0.2"/>
+</svg>

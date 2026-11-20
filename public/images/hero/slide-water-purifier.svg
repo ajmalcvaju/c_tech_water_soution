@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="40%" stop-color="#0b1528"/>
+      <stop offset="80%" stop-color="#0f2748"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="70%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#0369a1" stop-opacity="0.18"/>
+      <stop offset="75%" stop-color="#021526" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanFlare" cx="80%" cy="40%" r="35%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#0ea5e9" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg1)"/>
+  <circle cx="1400" cy="480" r="700" fill="url(#glow1)"/>
+  <circle cx="1500" cy="420" r="450" fill="url(#cyanFlare)"/>
+
+  <!-- High-Tech Isometric Precision Grid -->
+  <g opacity="0.06" stroke="#38bdf8" stroke-width="1.2">
+    <path d="M0 120 H1920 M0 240 H1920 M0 360 H1920 M0 480 H1920 M0 600 H1920 M0 720 H1920 M0 840 H1920 M0 960 H1920" />
+    <path d="M160 0 V1080 M320 0 V1080 M480 0 V1080 M640 0 V1080 M800 0 V1080 M960 0 V1080 M1120 0 V1080 M1280 0 V1080 M1440 0 V1080 M1600 0 V1080 M1760 0 V1080" />
+  </g>
+
+  <!-- Concentric Radial Orbit Rings -->
+  <g transform="translate(1420, 500)" opacity="0.18">
+    <circle cx="0" cy="0" r="280" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="12 16"/>
+    <circle cx="0" cy="0" r="380" fill="none" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="6 24"/>
+    <circle cx="0" cy="0" r="480" fill="none" stroke="#0284c7" stroke-width="2"/>
+    <circle cx="0" cy="0" r="580" fill="none" stroke="#0369a1" stroke-width="1" stroke-dasharray="8 32"/>
+  </g>
+
+  <!-- Left Dark Gradient for High-Contrast Readable Typography -->
+  <rect width="1150" height="1080" fill="url(#bg1)" opacity="0.94"/>
+  <rect width="1920" height="1080" fill="black" opacity="0.2"/>
+</svg>

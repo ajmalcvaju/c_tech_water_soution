@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020806"/>
+      <stop offset="45%" stop-color="#061f18"/>
+      <stop offset="80%" stop-color="#083329"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <radialGradient id="glow4" cx="72%" cy="48%" r="55%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="45%" stop-color="#059669" stop-opacity="0.18"/>
+      <stop offset="80%" stop-color="#020806" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tealFlare" cx="78%" cy="42%" r="35%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.32"/>
+      <stop offset="60%" stop-color="#10b981" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#020806" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg4)"/>
+  <circle cx="1400" cy="500" r="750" fill="url(#glow4)"/>
+  <circle cx="1480" cy="440" r="500" fill="url(#tealFlare)"/>
+
+  <!-- Clean Medical Grid -->
+  <g opacity="0.07" stroke="#34d399" stroke-width="1.2">
+    <path d="M0 120 H1920 M0 240 H1920 M0 360 H1920 M0 480 H1920 M0 600 H1920 M0 720 H1920 M0 840 H1920 M0 960 H1920" />
+    <path d="M160 0 V1080 M320 0 V1080 M480 0 V1080 M640 0 V1080 M800 0 V1080 M960 0 V1080 M1120 0 V1080 M1280 0 V1080 M1440 0 V1080 M1600 0 V1080 M1760 0 V1080" />
+  </g>
+
+  <!-- Dynamic ECG / Heartbeat Life Pulse Line -->
+  <path d="M900 680 L1120 680 L1150 600 L1180 760 L1220 520 L1260 800 L1290 640 L1320 700 L1340 680 L1920 680" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+
+  <!-- Orbital Rings -->
+  <g transform="translate(1420, 500)" opacity="0.2">
+    <circle cx="0" cy="0" r="280" fill="none" stroke="#34d399" stroke-width="2" stroke-dasharray="14 18"/>
+    <circle cx="0" cy="0" r="400" fill="none" stroke="#6ee7b7" stroke-width="1"/>
+    <circle cx="0" cy="0" r="520" fill="none" stroke="#059669" stroke-width="2" stroke-dasharray="8 24"/>
+  </g>
+
+  <rect width="1150" height="1080" fill="url(#bg4)" opacity="0.94"/>
+  <rect width="1920" height="1080" fill="black" opacity="0.2"/>
+</svg>
